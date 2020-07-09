@@ -1,0 +1,25 @@
+body {
+    background-color:skyblue;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.covid{
+    width: 400px;
+    margin-top:50px;
+}
+
+@media (max-width:720 px){
+    .container{
+        margin: 0 10%;
+    }
+}
+.covid{
+    width: 100px;
+
+}
